@@ -1,0 +1,110 @@
+.countdown-container {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, rgba(26, 0, 178, 0.3), rgba(159, 100, 255, 0.2));
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(159, 100, 255, 0.3);
+  margin: 2rem 0;
+}
+
+.countdown-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, var(--radiant-violet), var(--magenta-punch));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.countdown-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+}
+
+.countdown-number {
+  font-size: 4rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, var(--radiant-violet), var(--magenta-punch), var(--amber-glow));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 30px rgba(159, 100, 255, 0.5);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+}
+
+.countdown-label {
+  font-size: 0.9rem;
+  color: var(--soft-lavender-mist);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.countdown-separator {
+  font-size: 3rem;
+  color: var(--radiant-violet);
+  font-weight: bold;
+  opacity: 0.6;
+  animation: blink 1s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.countdown-date {
+  font-size: 1.2rem;
+  color: var(--soft-lavender-mist);
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .countdown-number {
+    font-size: 2.5rem;
+  }
+  
+  .countdown-separator {
+    font-size: 2rem;
+  }
+  
+  .countdown-title {
+    font-size: 1.5rem;
+  }
+  
+  .countdown-item {
+    min-width: 70px;
+  }
+}
+
