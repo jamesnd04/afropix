@@ -99,7 +99,7 @@ function Schedule() {
     <div className="schedule-page">
       <div className="schedule-hero">
         <h1 className="schedule-title">AfroPix 2026 Schedule</h1>
-        <p className="schedule-subtitle">Saturday, February 22nd, 2026</p>
+        <p className="schedule-subtitle">Saturday, February 28th, 2026</p>
         <p className="schedule-description">
           Pre-Professional Event & Mini-Hackathon
         </p>

@@ -11,7 +11,7 @@ function Countdown() {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const targetDate = new Date("2026-02-22T00:00:00").getTime();
+      const targetDate = new Date("2026-02-28T00:00:00").getTime();
       const now = new Date().getTime();
       const difference = targetDate - now;
 
@@ -65,7 +65,7 @@ function Countdown() {
           <div className="countdown-label">Seconds</div>
         </div>
       </div>
-      <div className="countdown-date">February 22, 2025</div>
+      <div className="countdown-date">February 28, 2026</div>
     </div>
   );
 }

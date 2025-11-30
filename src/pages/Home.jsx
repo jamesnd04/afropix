@@ -17,7 +17,7 @@ function Home() {
           <div className="hero-content">
             <h1 className="hero-title">
               <span className="hero-title-main">AfroPix</span>
-              <span className="hero-title-sub">Symposium 2025</span>
+              <span className="hero-title-sub">Symposium 2026</span>
             </h1>
             <p className="hero-description">
               An annual day-long symposium hosted by Black in Technology (BiT)
