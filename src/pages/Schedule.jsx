@@ -8,76 +8,84 @@ function Schedule() {
 
   const schedule = [
     {
-      time: "08:00 AM",
-      title: "Registration & Welcome Breakfast",
-      description: "Check-in, networking, and catered breakfast",
+      time: "10:00 AM - 10:45 AM",
+      title: "Registration + Brunch",
+      description:
+        "Sitterson Lower Lobby (Brunch) | Sitterson Upper Lobby (Registration)",
       type: "general",
     },
     {
-      time: "09:00 AM",
-      title: "Opening Keynote Speaker",
-      description: "Inspiring keynote address to kick off AfroPix 2025",
+      time: "11:00 AM - 11:15 AM",
+      title: "Opening Ceremony",
+      description: "SN011",
+      type: "general",
+    },
+    {
+      time: "11:15 AM - 12:00 PM",
+      title: "Keynote Speaker",
+      description: "SN011",
       type: "keynote",
     },
     {
-      time: "10:00 AM",
-      title: "Pre-Professional Workshop",
-      description:
-        "Technical workshop for career development and skill building",
-      type: "workshop",
-    },
-    {
-      time: "11:00 AM",
-      title: "Sponsor Fair",
-      description: "Connect with top tech companies and explore opportunities",
-      type: "showcase",
-    },
-    {
-      time: "12:00 PM",
-      title: "Lunch Break",
-      description: "Catered lunch and networking opportunity",
-      type: "break",
-    },
-    {
-      time: "01:00 PM",
-      title: "Alumni Panel",
-      description: "Hear from BiT alumni about their journeys in tech",
-      type: "panel",
-    },
-    {
-      time: "02:00 PM",
-      title: "Mini-Hackathon Kickoff",
-      description: "Introduction to hackathon guidelines and team formation",
+      time: "12:00 PM - 12:15 PM",
+      title: "Project Introduction",
+      description: "SN011",
       type: "general",
     },
     {
-      time: "02:30 PM",
-      title: "Hackathon: Coding & Development",
-      description: "Work individually or in teams to build innovative projects",
+      time: "12:15 PM - 5:00 PM",
+      title: "Hacking Begins",
+      description: "Need dedicated room for hacking | SN014",
       type: "workshop",
     },
     {
-      time: "04:00 PM",
-      title: "Hackathon Workshops & Mentorship",
-      description: "Attend workshops and receive guidance from mentors",
+      time: "12:30 PM - 4:45 PM",
+      title: "Mentorship Lounge",
+      description: "1-on-1 mentoring for hackathon | SN014",
       type: "workshop",
     },
     {
-      time: "05:30 PM",
-      title: "Project Presentations & Judging",
-      description: "Teams present their projects for evaluation",
+      time: "12:30 PM - 1:15 PM",
+      title: "Workshop Cycle 1",
+      description: "Workshop 1: FB007 | Workshop 2: FB009",
+      type: "workshop",
+    },
+    {
+      time: "1:00 PM - 5:00 PM",
+      title: "AfroPix Lounge",
+      description:
+        "Snacks, beverages + networking area; companies | Sitterson Upper Lobby",
+      type: "break",
+    },
+    {
+      time: "1:30 PM - 3:30 PM",
+      title: "Sponsor Fair",
+      description: "Sitterson Lower Lobby",
       type: "showcase",
     },
     {
-      time: "06:30 PM",
-      title: "Awards Ceremony & Raffle",
-      description: "Celebrate winning projects and raffle prize winners",
-      type: "reception",
+      time: "4:00 PM - 4:45 PM",
+      title: "Workshop Cycle 2",
+      description: "FB007",
+      type: "workshop",
     },
     {
-      time: "07:00 PM",
-      title: "Closing Reception",
-      description: "Community celebration with refreshments and networking",
+      time: "5:00 PM",
+      title: "Final Call for Projects!",
+      description: "",
+      type: "general",
+    },
+    {
+      time: "5:00 PM - 6:00 PM",
+      title: "Alumni Panel",
+      description:
+        "SN011 | Judges look at projects during this time (SN014) | Judge deliberation",
+      type: "panel",
+    },
+    {
+      time: "6:00 PM - 6:30 PM",
+      title: "Raffle + Hackathon Prizes + Closing Ceremony",
+      description: "SN011",
       type: "reception",
     },
   ];
@@ -128,9 +136,11 @@ function Schedule() {
                   {event.type.toUpperCase()}
                 </div>
                 <h3 className="schedule-event-title">{event.title}</h3>
-                <p className="schedule-event-description">
-                  {event.description}
-                </p>
+                {event.description && (
+                  <p className="schedule-event-description">
+                    {event.description}
+                  </p>
+                )}
               </div>
             </div>
           ))}
