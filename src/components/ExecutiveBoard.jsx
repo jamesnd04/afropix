@@ -11,11 +11,12 @@ function ExecutiveBoard() {
     },
     {
       id: 2,
-      name: "Bettina George",
-      role: "Vice President",
+      name: "Jayson Mbugua",
+      role: "Afropix Lead",
       image:
-        "https://res.cloudinary.com/dh6hkd2ih/image/upload/v1764542836/IMG_3745_-_Bettina_George_jihhho.jpg",
+        "https://res.cloudinary.com/dh6hkd2ih/image/upload/v1764542837/1713480039939-2_-_Jayson_Gachangi_zkpwhv.jpg",
     },
+
     {
       id: 3,
       name: "James Dankwah",
@@ -32,24 +33,24 @@ function ExecutiveBoard() {
     },
     {
       id: 5,
-      name: "Jayson Mbugua",
+      name: "Bettina George",
       role: "Hackathon Coordinator",
       image:
-        "https://res.cloudinary.com/dh6hkd2ih/image/upload/v1764542837/1713480039939-2_-_Jayson_Gachangi_zkpwhv.jpg",
+        "https://res.cloudinary.com/dh6hkd2ih/image/upload/v1764542836/IMG_3745_-_Bettina_George_jihhho.jpg",
     },
     {
       id: 6,
-      name: "Landy Brutus",
-      role: "Outreach",
-      image:
-        "https://res.cloudinary.com/dh6hkd2ih/image/upload/v1764542836/DeWatermark.ai_1754750049066_-_Landy_Brutus_y9w7ud.jpg",
-    },
-    {
-      id: 7,
       name: "Millie Kembe",
       role: "Graphic Designer",
       image:
         "https://res.cloudinary.com/dh6hkd2ih/image/upload/v1764542836/NSBE_Headshot_-_Millie_Kembe_inlemr.jpg",
+    },
+    {
+      id: 7,
+      name: "Landy Brutus",
+      role: "Outreach",
+      image:
+        "https://res.cloudinary.com/dh6hkd2ih/image/upload/v1764542836/DeWatermark.ai_1754750049066_-_Landy_Brutus_y9w7ud.jpg",
     },
   ];
 
