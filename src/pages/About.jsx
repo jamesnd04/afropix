@@ -18,8 +18,8 @@ function About() {
           <h2 className="section-title">What is AfroPix?</h2>
           <p className="section-text">
             AfroPix is an annual day-long symposium hosted by Black in
-            Technology (BiT) for minorities. It is open to students across the
-            state who are enrolled in computer science programs or pursuing a
+            Technology (BiT). It is open to students across the state who are
+            enrolled in computer science programs or pursuing a
             technology-related career path. We anticipate that most of our
             attendees will be local; primarily coming from UNC and other
             surrounding colleges and universities in the Carolinas.
