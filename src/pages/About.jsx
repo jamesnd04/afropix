@@ -40,10 +40,9 @@ function About() {
           </p>
           <p className="section-text">
             At its conclusion, we intend for AfroPix to be an impact,
-            community-building, and celebratory event for black and other
-            marginalized students studying computer science and other
-            tech-related industries. Catering will be provided throughout the
-            day.
+            community-building, and celebratory event for studying computer
+            science and other tech-related industries. Catering will be provided
+            throughout the day.
           </p>
         </section>
 
@@ -76,16 +75,15 @@ function About() {
         <section className="about-section">
           <h2 className="section-title">Why Partner with AfroPix?</h2>
           <p className="section-text">
-            Our mission is to expand and empower communities of color in
-            technology. We want to establish a welcoming environment for
-            aspiring technologists and drive the growth of these groups. AfroPix
-            aspires to be an incredible learning experience for our
-            participants.
+            Our mission is to expand and empower communities in technology. We
+            want to establish a welcoming environment for aspiring technologists
+            and drive the growth of these groups. AfroPix aspires to be an
+            incredible learning experience for our participants.
           </p>
           <p className="section-text">
-            By sponsoring us, you show your support for diversity in the tech
-            sphere and have the opportunity to meet diverse top talent from
-            colleges all across North Carolina!
+            By sponsoring us, you show your support for growth in the tech
+            sphere and have the opportunity to meet top talent from colleges all
+            across North Carolina!
           </p>
         </section>
       </div>
