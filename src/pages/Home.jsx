@@ -28,7 +28,26 @@ function Home() {
             <Countdown />
           </div>
         </section>
-
+        <section className="registration-section">
+          <div className="registration-content">
+            <h2 className="registration-title">Register for AfroPix 2026</h2>
+            <p className="registration-description">
+              Join us for an incredible day of learning, networking, and
+              innovation. Register now to secure your spot!
+            </p>
+            <div className="typeform-container">
+              <iframe
+                id="typeform-full"
+                width="100%"
+                height="600"
+                frameBorder="0"
+                src="https://form.typeform.com/to/v4rNylgN"
+                className="typeform-iframe"
+                title="AfroPix Registration Form"
+              ></iframe>
+            </div>
+          </div>
+        </section>
         <ExecutiveBoard />
       </div>
     </div>
