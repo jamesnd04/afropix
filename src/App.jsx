@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navigation from './components/Navigation'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import Schedule from './pages/Schedule'
-import ExecutiveBoard from './components/ExecutiveBoard'
 import './App.css'
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/schedule" element={<Schedule />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   )

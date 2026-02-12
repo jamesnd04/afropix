@@ -72,52 +72,6 @@
   }
 }
 
-.registration-section {
-  padding: 6rem 2rem;
-  background: rgba(26, 0, 178, 0.2);
-  border-top: 1px solid rgba(159, 100, 255, 0.3);
-  border-bottom: 1px solid rgba(159, 100, 255, 0.3);
-}
-
-.registration-content {
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.registration-title {
-  font-size: 3rem;
-  font-weight: 700;
-  background: linear-gradient(135deg, var(--radiant-violet), var(--magenta-punch));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 1rem;
-}
-
-.registration-description {
-  font-size: 1.2rem;
-  color: var(--soft-lavender-mist);
-  margin-bottom: 3rem;
-  line-height: 1.8;
-}
-
-.typeform-container {
-  width: 100%;
-  border-radius: 15px;
-  overflow: hidden;
-  background: rgba(26, 0, 178, 0.3);
-  border: 1px solid rgba(159, 100, 255, 0.3);
-  box-shadow: 0 10px 40px rgba(159, 100, 255, 0.2);
-}
-
-.typeform-iframe {
-  width: 100%;
-  height: 600px;
-  border: none;
-  display: block;
-}
-
 @media (max-width: 768px) {
   .hero-title-main {
     font-size: 3.5rem;
@@ -134,22 +88,6 @@
   
   .hero-section {
     padding: 6rem 1rem 3rem;
-  }
-
-  .registration-section {
-    padding: 4rem 1rem;
-  }
-
-  .registration-title {
-    font-size: 2rem;
-  }
-
-  .registration-description {
-    font-size: 1rem;
-  }
-
-  .typeform-iframe {
-    height: 500px;
   }
 }
 
